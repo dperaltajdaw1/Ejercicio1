@@ -8,8 +8,12 @@ public class CalcularPeriodo {
 		
 		//Creamos la fecha del descubrimiento de américa
 		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);	 
+		LocalDate fecha2 = LocalDate.of(1492, Month.JULY, 28);
+		LocalDate fecha3 = LocalDate.of(1492, Month.NOVEMBER, 22);
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
+		calcularPeriodo("Primera guerra mundial", fecha2);
+		calcularPeriodo("Asesinato del presidente Jhon F. Kennedy", fecha3);
 		
 	}
 	
